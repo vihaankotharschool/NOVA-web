@@ -175,7 +175,7 @@ export default function Download({ onNavigate }: { onNavigate: (p: Page) => void
               icon={<IconWindows className="h-9 w-9" />}
               title="Download NOVA for Windows"
               file="NOVA_setup.exe"
-              href="/NOVA_Setup.exe"
+              href="https://github.com/vihaankotharschool/Nova-web/releases/download/exe/NOVA_Setup.exe"
               downloadName="NOVA_setup.exe"
               meta={WINDOWS_META}
               action="DOWNLOAD .EXE"
