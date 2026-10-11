@@ -1,5 +1,5 @@
 const LOGO_SOURCE =
-  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-x2tQx82ljfkrRUf3or4xZOliqm93oa.png";
+  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image%2820261010-112502%29-X1vFWBbs8jurt6nzvaqAi53iwQdJVH.png";
 
 export function LogoMark({
   size = 40,
@@ -48,8 +48,7 @@ export function NovaEmblem({ glow = false }: { idp?: string; glow?: boolean }) {
 
 export { LOGO_SOURCE };
 
-/* The supplied artwork has a black matte; screen blending makes that matte transparent
-   against NOVA's dark interface while preserving the emblem's blue and metal details. */
+/* The supplied transparent emblem remains circular and uses screen blending for the NOVA interface. */
 
 /** @deprecated Kept for existing imports; the supplied raster mark is now the source of truth. */
 export function NovaEmblemLegacy() {
