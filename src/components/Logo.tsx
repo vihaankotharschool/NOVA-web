@@ -19,6 +19,8 @@ export function LogoMark({
       className={className}
       style={{
         mixBlendMode: "screen",
+        borderRadius: "50%",
+        objectFit: "cover",
         filter: glow ? "drop-shadow(0 0 8px rgb(0 190 255 / 0.55))" : undefined,
       }}
     />
@@ -36,6 +38,8 @@ export function NovaEmblem({ glow = false }: { idp?: string; glow?: boolean }) {
       preserveAspectRatio="xMidYMid meet"
       style={{
         mixBlendMode: "screen",
+        borderRadius: "50%",
+        objectFit: "cover",
         filter: glow ? "drop-shadow(0 0 8px rgb(0 190 255 / 0.55))" : undefined,
       }}
     />
