@@ -20,6 +20,7 @@ export function LogoMark({
       style={{
         mixBlendMode: "screen",
         borderRadius: "50%",
+        clipPath: "circle(50% at 50% 50%)",
         objectFit: "cover",
         filter: glow ? "drop-shadow(0 0 8px rgb(0 190 255 / 0.55))" : undefined,
       }}
@@ -39,6 +40,7 @@ export function NovaEmblem({ glow = false }: { idp?: string; glow?: boolean }) {
       style={{
         mixBlendMode: "screen",
         borderRadius: "50%",
+        clipPath: "circle(50% at 50% 50%)",
         objectFit: "cover",
         filter: glow ? "drop-shadow(0 0 8px rgb(0 190 255 / 0.55))" : undefined,
       }}
